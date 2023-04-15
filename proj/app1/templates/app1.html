@@ -1,0 +1,32 @@
+<html>
+<body>
+<center>
+<head>
+    <link rel="stylesheet" href="app1.css">
+</head>
+<form class="inp_form">
+    <label class="inp_form_left">Select the Restaurant: </label>
+    <select class="inp_form_right">
+        <option value="null">Choose from below</option>
+        <option value="four_block">4th Block NC</option>
+        <option value="seventh_block">7th Block NC</option>
+        <option value="eight_block">8th Block NC</option>
+        <option value="gbnc">Girls Block NC</option>
+    </select>
+    <br>
+    <label class="inp_form_left">What did you have?</label>
+    <br>
+    <label class="inp_form_left">When did you visit? </label>
+    <input type="datetime-local" class="inp_form_right" name="timestamp">
+    <br>
+    <label class="inp_form_left">Upload Bill</label>
+    <input class="inp_form_right" type="file" accept="bill/*" name="bill">
+    <br>
+    <label class="inp_form_left">Enter Bill Amount: </label>
+    <input type="number" min="1" class="inp_form_right" name="amt">
+    <br>
+    <button action="submit">Submit</button>
+</form>
+</center>
+</body>
+</html>
